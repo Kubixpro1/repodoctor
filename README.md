@@ -111,6 +111,18 @@ repodoctor init
 repodoctor version
 ```
 
+## Try the Demo
+
+Clone the repository and run the end-to-end demonstration:
+
+```bash
+python examples/demo.py
+```
+
+It creates an intentionally unhealthy repository in a temporary directory,
+detects governance, dependency, and credential issues, then removes the sample
+directory. The demo never scans or modifies your own project.
+
 ## Configuration
 
 Create a `repodoctor.json` in your repository root to customize behavior.

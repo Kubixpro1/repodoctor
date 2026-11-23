@@ -40,6 +40,18 @@ repodoctor init
 
 ## Examples
 
+### Run the Demonstration
+
+From a clone of this repository, run:
+
+```bash
+python examples/demo.py
+```
+
+The script builds a temporary repository containing intentional governance,
+dependency, and credential issues, scans it in offline mode, and removes the
+temporary directory when it finishes.
+
 ### CI Pipeline (GitHub Actions)
 
 ```yaml
