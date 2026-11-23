@@ -1,0 +1,42 @@
+## Description
+
+Please include a summary of the change and which issue is fixed. Please also
+include relevant motivation and context.
+
+Fixes # (issue number)
+
+## Type of Change
+
+Please delete options that are not relevant.
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality
+      to not work as expected)
+- [ ] Documentation update
+- [ ] Test improvement
+- [ ] Refactor (no functional changes)
+
+## How Has This Been Tested?
+
+Please describe the tests that you ran to verify your changes. Provide
+instructions so reviewers can reproduce your tests.
+
+- [ ] Unit tests pass (`pytest`)
+- [ ] Linting passes (`ruff check repodoctor/ tests/`)
+- [ ] Formatting is correct (`ruff format --check repodoctor/ tests/`)
+- [ ] Type checking passes (`mypy repodoctor/`)
+
+## Checklist
+
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added tests that prove my fix is effective or my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
+
+## Additional Context
+
+Add any other context or screenshots about the pull request here.

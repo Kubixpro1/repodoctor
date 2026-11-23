@@ -1,0 +1,59 @@
+{
+  "severity_threshold": "medium",
+  "output_format": "text",
+  "exclude_dirs": [
+    ".git",
+    ".hg",
+    ".svn",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "dist",
+    "build",
+    "docs/_build",
+    "site"
+  ],
+  "exclude_files": [
+    ".DS_Store",
+    "Thumbs.db",
+    "*.lock",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "exclude": [
+    "tests/fixtures/secrets/",
+    "legacy/"
+  ],
+  "offline": false,
+  "max_file_size": 2000000,
+  "rules": {
+    "governance_files": true,
+    "extended_governance": true,
+    "readme_quality": true,
+    "secrets": true,
+    "dependencies": true,
+    "ci_cd": true,
+    "github_security": true,
+    "license": true,
+    "tests": true,
+    "git_hygiene": true,
+    "large_files": true,
+    "build_artifacts": true
+  },
+  "rule_overrides": {},
+  "dependency_checks": {
+    "outdated": true,
+    "vulnerabilities": true,
+    "licenses": true,
+    "conflicts": true,
+    "missing_lockfile": true
+  },
+  "github_security": {
+    "check_workflow_permissions": true,
+    "check_unpinned_actions": true,
+    "check_pull_request_target": true,
+    "check_dependabot": true,
+    "check_branch_protection": true
+  }
+}
